@@ -10,3 +10,16 @@
     font-style: normal;
 
 }
+body
+{
+    background: url('images/fond_jaune.png');
+}
+
+#banniere
+{
+    background: url('images/sanfrancisco.jpg');
+}
+#bloc_page
+{
+    width: 900px;
+}
