@@ -41,7 +41,7 @@ body
     font-size: 0.7em;
     width: 900px;
 }
-.bouton_rouge
+/*.bouton_rouge
 {
     height: 25px;
     position: absolute;
@@ -55,7 +55,7 @@ body
     padding: 3px 8px 0px 8px;
     color: white;
     text-decoration: none;
-}
+}*/
 nav ul
 {
     list-style: none;
