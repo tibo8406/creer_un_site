@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
     src: url('/font/roboto_regular_macroman/Roboto-Regular-webfont.eot');
     src: url('/font/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('/font/roboto_regular_macroman/Roboto-Regular-webfont.woff2') format('woff2'),
@@ -13,13 +13,70 @@
 body
 {
     background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 #banniere
 {
+    border-radius: 5px;
     background: url('images/sanfrancisco.jpg');
+    height: 219px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 #bloc_page
 {
     width: 900px;
+    margin: auto;
+
+}
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    color:white;
+    height: 30px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgba(24,24,24,0.8);
+    font-size: 0.7em;
+    width: 900px;
+}
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+nav ul
+{
+    list-style: none;
+    font-size: 1.5em;
+    display:flex;
+}
+ul li
+{
+    margin-right: 10px;
+}
+header
+{
+    display:flex;
+    background: url('images/separateur.png') repeat-x bottom;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+section{
+    display:flex;
+}
+section h2,
+{
+    font-family: roboto;
 }
