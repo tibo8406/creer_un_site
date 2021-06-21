@@ -105,3 +105,15 @@ aside img
 {
     margin-right: 5px;
 }
+#photozozor
+{
+    text-align: center;
+}
+#photozozor img
+{
+    border:1px solid black;
+}
+footer
+{
+    display: flex;
+}
