@@ -78,7 +78,7 @@ section{
 }
 section h2
 {
-    font-family: roboto;
+    font-family: roboto, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 aside
 {
@@ -120,4 +120,67 @@ footer
 footer div
 {
     margin-right: 10px;
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    } 
+    nav ul
+    {
+            flex-direction: column;
+    }
+    
+        nav li
+        {
+            padding-left: 4px;
+        }
+        
+        nav a
+        {
+            font-size: 1.1em;
+        }
+        
+        nav a:hover
+        {
+            border-bottom: 0;
+        }
+    #banniere
+    {
+        display:none;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+    #fleche_bulle
+    {
+        display: none;
+    }
+    
+    #photo_zozor img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    aside p:last-child
+    {
+        text-align: center;
+    }
 }
